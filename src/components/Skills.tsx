@@ -2,15 +2,12 @@ import {
   Brush,
   Code2,
   Database,
-   
   Globe2,
   Grid2X2,
   Languages,
-  
   Palette,
   Smartphone,
   Sparkles,
-  CloudSun,
 } from "lucide-react";
 import { DiVisualstudio } from "react-icons/di";
 
@@ -18,7 +15,6 @@ import { FaBootstrap, FaCss3Alt, FaHtml5, FaJs, FaReact } from "react-icons/fa";
 import { FiFigma } from "react-icons/fi";
 
 import {
-  
   SiFigma,
   SiGit,
   SiGithub,
@@ -26,7 +22,6 @@ import {
   SiMui,
   SiTailwindcss,
   SiTypescript,
-  
 } from "react-icons/si";
 import { TbBrandAdobePhotoshop } from "react-icons/tb";
 
@@ -240,12 +235,6 @@ const Skills = () => {
               icon={<DiVisualstudio size={17} />}
               text="VS Code"
               color="text-[#007ACC]"
-            />
-
-            <SkillTag
-              icon={<CloudSun size={17} />}
-              text="Weather API"
-              color="text-[#38BDF8]"
             />
 
             <SkillTag
