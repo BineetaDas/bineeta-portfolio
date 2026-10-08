@@ -1,6 +1,6 @@
 import { ArrowDown, ArrowRight, Code2, Sparkles } from "lucide-react";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import profileImage from "../assets/profile-photo.jpeg";
+import profileImage from "../assets/professional-profilephoto.png";
 
 const Hero = () => {
   const scrollToSection = (id: string) => {
